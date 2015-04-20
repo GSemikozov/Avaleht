@@ -1,0 +1,257 @@
+body {
+    background-color: #fff;
+    font-family: 'Bienetresocial', 'PT Sans', sans-serif;
+}
+@font-face {
+    font-family: 'Bienetresocial';
+    src: url(../fonts/Bienetresocial.ttf);
+ }
+/*----------------------------------------------------------- */
+/* styles for modal window */ 
+.modal-header {
+    border-bottom: none;
+    padding: 2px 5px;
+ }
+.modal-content {
+    border-radius: 0;
+ }
+.modal-title {
+    font-family: 'Bienetresocial', sans-serif;
+    line-height: 1;
+    margin-bottom: 20px;
+ }
+.modal-text {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 16px;
+    margin-bottom: 20px;
+ }
+.modal-body {
+    padding: 20px 40px;
+    position: relative;
+ }
+/*----------------------------------------------------------- */
+/* styles for header --- */ 
+.header-bg {
+    background: url(../images/header1.png) no-repeat;
+    background-size: cover;
+    background-position: center; /* ie 8 */
+}
+/* Tee ise */
+.header-button {
+    background: #c83000;
+    background: -webkit-linear-gradient(#961d00, #c83000);
+    background: linear-gradient(#961d00, #c83000);
+    border: none;
+    border-radius: 0;
+    color: #fff;
+    display: block;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 1.2em;
+    padding: .34em 2em;
+    position: relative;
+ }
+.header-button:after {
+    border-left: 82px solid transparent;
+    border-right: 82px solid transparent;
+    border-top: 10px solid #c83000;
+    bottom: -10px;
+    content: "";
+    height: 0;
+    left: 0;
+    position: absolute;
+    width: 0;
+ }
+.header-button:hover,
+.header-button:focus,
+.header-button.focus,
+.header-button:active,
+.header-button.active,
+.open > .dropdown-toggle.header-button {
+    border: none;
+    background: -webkit-linear-gradient(#961d00, #c83000);
+    background: linear-gradient(#961d00, #c83000);
+}
+.header-button:active,
+.header-button.active,
+.open > .dropdown-toggle.header-button {
+    background: -webkit-linear-gradient(#961d00, #c83000);
+    background: linear-gradient(#961d00, #c83000);
+}
+
+.logo-img {
+    margin-bottom: 1.5em;
+}
+.header-text {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 16px;
+    margin: 0;
+ }
+.header-link {
+    color: #a62300;
+    cursor: pointer;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 2;
+}
+.heading {
+    margin: 0;
+}
+.heading-text {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 16px;
+    margin-top: 20px;
+    padding: 7px 0;
+}  
+/*----------------------------------------------------------- */
+/* styles for content --- */ 
+.arrow-down-icon {
+    margin-right: 10px;
+}
+.panel {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+.panel-header, .panel-content {
+    border-bottom: 1px solid #ffe756;
+    position: relative;
+}
+.panel-header {
+    margin-top: 20px;
+}
+
+.label-img {
+    float: left; 
+    margin-right: 16px;
+}
+.label-text, .label-header {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    margin: 0;
+    line-height: 1.65em;
+}
+.label-header {
+    font-weight: bold;
+}
+/* button box checkboxes blocks */ 
+.btn-warning {
+    background: -webkit-linear-gradient(#ffe756, #ffef80);
+    background: linear-gradient(#ffe756, #ffef80);
+    border: 1px solid #ffe756;
+    border-radius: 4px 4px 0 0;
+    color: #3f2916;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 24px;
+    padding: 6px 20px;
+ }
+.btn-warning:hover,
+.btn-warning:focus,
+.btn-warning.focus,
+.btn-warning:active,
+.btn-warning.active,
+.open > .dropdown-toggle.btn-warning {
+    color: #3f2916;
+    border-color: #ffe756;
+    background: -webkit-linear-gradient(#ffe756, #ffef80);
+    background: linear-gradient(#ffe756, #ffef80);
+}
+.btn-warning:active,
+.btn-warning.active,
+.open > .dropdown-toggle.btn-warning {
+    background: -webkit-linear-gradient(#ffe756, #ffef80);
+    background: linear-gradient(#ffe756, #ffef80);
+}
+/* -----------checkboxes-----------*/
+.checkbox-count {
+    font-size: 24px;
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+.custom-checkbox {
+    border-bottom: 1px solid #ffe756;
+    cursor: pointer;
+    display: block;
+    margin-bottom: 0;
+    padding: 14px 22px;
+    width: 100%;
+}
+.custom-checkbox > input[type=checkbox] {
+    display: none;
+}
+.custom-checkbox > .align-checkbox {
+    background: url(../images/checkbox.png) no-repeat;
+    display: block;
+    float: left;
+    height: 21px;
+    margin: 25px 32px 0 0;
+    width: 19px;
+}
+.custom-checkbox input[type=checkbox]:checked + .align-checkbox {
+    background-position: 0px -50px;
+}
+
+.next-toogle {
+    color: #951c00;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 5em;
+    margin: 0 22px;
+    text-decoration: underline;
+}
+/*  button Submit */
+.btn-valmis {
+    box-shadow: 0 -1px #f9f9f9;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 30px;
+    line-height: 1.6em;
+    padding: 0 45px;
+    text-shadow: -1px -1px #545454;
+}
+.pull-center {
+    margin: 35px 0;
+    text-align: center;
+}
+.btn-valmis.disabled {
+    background: #b1b1b1;
+    border: 1px solid #999;
+    color: #e2e2e2;
+}
+.btn-valmis.active {
+    background: #961d00;
+    background: -webkit-linear-gradient(#b62900, #961d00);
+    background: linear-gradient(#b62900, #961d00);
+    border: 1px solid #7b1700;
+    color: #fff;
+}
+
+.pre-footer-text {
+    font-size: 20px;
+    font-family: 'PT Sans', sans-serif;
+}
+/*----------------------------------------------------------- */
+/* styles for footer */
+.footer {
+    background: #3b3530;
+    border-radius: 0;
+    margin: 0;
+}
+.footer-content {
+    padding: 40px 0 30px 0;
+}
+.footer-content > p {
+    margin-bottom: 20px;
+}
+.footer-text {
+    color: #fff;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 16px;
+}
+.footer-text-link {
+    color: #e5cf51;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 16px;
+    text-decoration: underline;
+}

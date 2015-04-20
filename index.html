@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Avaleht</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media-queries.css">
+    <link rel="stylesheet" href="css/font-awesome.css">
+    <link href='http://fonts.googleapis.com/css?family=PT+Sans:400,700' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700' rel='stylesheet' type='text/css'>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+    <script src="js/app.js"></script>
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if IE 8]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+      <script src="js/ie8.js"></script>
+      <link rel="stylesheet" href="css/ie8.css">
+    <![endif]-->
+  </head>
+  <body>
+
+    <!-- Header -->
+    <header>
+      <div class="navbar header-bg">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-5 col-sm-8 col-xs-12 col-md-offset-2 col-sm-offset-1">
+
+              <button type="button" class="btn header-button" data-toggle="modal" data-target="#popup" tabindex="1">Tee ise</button>
+              <!-- We can use bottom link like link for homepage -->
+              <a><img src="images/logo.png" class="img-responsive logo-img" alt="Ajalugu logo"></a>
+              <p class="header-text">
+                Vali nende põnevate lugude seast välja enda lemmikud.  Sinu ja Vali nende põnevate lugude seast välja enda lemmikud.  Sinu ja Vali nende põnevate lugude seast välja enda lemmikud. Sinu ja Vali nende põnevate lugude seast välja enda lemmikud.
+              </p>
+              <a href="" class="header-link" title="Vali kartiklid" tabindex="2"><i class="fa fa-arrow-down arrow-down-icon"></i>Vali oma lemmikartiklid</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>  
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8 col-sm-10 col-xs-12 col-md-offset-2 col-sm-offset-1">
+          <h3 class="heading">Pane kokku omaenda Imeline Ajalugu</h3>
+          <p class="heading-text">
+            Vali igast teemast kuni 3 artiklit Imelise Ajaloo novembri numb Vali igast teemast kuni 3 artiklit Imelise Ajaloo novembri numb Vali igast teemast kuni 3 artiklit Imelise Ajaloo novembri numb
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Content -->
+    <article class="container">
+      <div class="row">
+        <div class="panel-group col-md-8 col-sm-10 col-xs-12 col-md-offset-2 col-sm-offset-1" id="accordion">
+            <div class="panel">
+              <div class="panel-header">
+                <button class="btn btn-warning" data-toggle="collapse" data-parent="#accordion" href="#collapse-1" tabindex="3"><i class="fa fa-chevron-up"></i> Pingelised sündmused</button>
+                <p class="pull-right checkbox-count"><span id="count"></span>/3</p>
+              </div>
+              <div id="collapse-1" class="collapse in">
+                <div class="panel-content">
+                
+                  <form name="Form" class="form1">
+          
+                    <label class="custom-checkbox" tabindex="4">
+                      <input id="checkbox-1" name="checkbox-1" type="checkbox">
+                      <span class="align-checkbox"></span>
+                      <img src="images/img1.png" class="img-responsive label-img" alt="Aaretejaht img">
+                      <div>
+                        <h4 class="label-header">
+                          Aaretejaht
+                        </h4>
+                        <p class="label-text">
+                          1820: Hispaanlased lastivad laeva aaretega, kuid see röövitakse 1820: Hispaanlased lastivad laeva aaretega, kuid see röövitakse
+                        </p>
+                      </div>
+                    </label>
+
+                    <label class="custom-checkbox" tabindex="5">
+                      <input id="checkbox-2" name="checkbox-2" type="checkbox">
+                      <span class="align-checkbox"></span>
+                      <img src="images/img2.png" class="img-responsive label-img" alt="Purustav orkaan img">
+                      <div>
+                        <h4 class="label-header">
+                          Purustav orkaan
+                        </h4>
+                        <p class="label-text">
+                          1900: Orkaan purustab Galvestoni linna. Katastroofis hukkub 8000 1900: Orkaan purustab Galvestoni linna. Katastroofis hukkub 8000
+                        </p>
+                      </div>
+                    </label>
+
+                    <label class="custom-checkbox" tabindex="6">
+                      <input id="checkbox-3" name="checkbox-3" type="checkbox">
+                      <span class="align-checkbox"></span>
+                      <img src="images/img3.png" class="img-responsive label-img" alt="Hirmsaim lennukatastroof img">
+                      <div>
+                        <h4 class="label-header">
+                          Hirmsaim lennukatastroof
+                        </h4>
+                        <p class="label-text">
+                          1977: Gran Canaria lennuväljal plahvatanud pommi tõttu suunatakse 1977: Gran Canaria lennuväljal plahvatanud pommi tõttu suunatakse
+                        </p>
+                      </div>
+                    </label>
+
+                    <label class="custom-checkbox" tabindex="7">
+                      <input id="checkbox-4" name="checkbox-4" type="checkbox">
+                      <span class="align-checkbox"></span>
+                      <img src="images/img4.png" class="img-responsive label-img" alt="Samuraide kättemaks img">
+                      <div>
+                        <h4 class="label-header">
+                          Samuraide kättemaks
+                        </h4>
+                        <p class="label-text">
+                          1703: Noor mees sunnitakse enesetapule ning tema klanni samuraid ning tema klanni samuraid
+                        </p>
+                      </div>
+                    </label>
+
+                    <label class="custom-checkbox" tabindex="8">
+                      <input id="checkbox-5" name="checkbox-5" type="checkbox">
+                      <span class="align-checkbox"></span>
+                      <img src="images/img5.png" class="img-responsive label-img" alt="Project Azorian img">
+                      <div>
+                        <h4 class="label-header">
+                          Project Azorian
+                        </h4>
+                        <p class="label-text">
+                          1968: Ootamatult upub nõukogude allveelaev K-129 tuumarakettide Ootamatult upub nõukogude allveelaev K-129 tuumarakettide
+                        </p>
+                      </div>
+                    </label>
+
+                    <label class="custom-checkbox" tabindex="9">
+                      <input id="checkbox-6" name="checkbox-6" type="checkbox">
+                      <span class="align-checkbox"></span>
+                      <img src="images/img6.png" class="img-responsive label-img" alt="Viis ööpäeva põrgus img">
+                      <div>
+                        <h4 class="label-header">
+                          Viis ööpäeva põrgus
+                        </h4>
+                        <p class="label-text">
+                          1977: Palestiina terroristid kaaperdavad reisilennuki. Tund-tunnilt Palestiina terroristid kaaperdavad reisilennuki.
+                        </p>
+                      </div>
+                    </label>
+
+                    <label class="custom-checkbox" tabindex="10">
+                      <input id="checkbox-7" name="checkbox-7" type="checkbox">
+                      <span class="align-checkbox"></span>
+                      <img src="images/img7.png" class="img-responsive label-img" alt="Tuumakatastroof Tšernobõlis img">
+                      <div>
+                        <h4 class="label-header">
+                          Tuumakatastroof Tšernobõlis
+                        </h4>
+                        <p class="label-text">
+                          1986: Suur osa Nõukogude Liidu elektrist tuleb tuumajaamadest, 1986: Suur osa Nõukogude Liidu elektrist tuleb tuumajaamadest, 1986: Suur osa Nõukogude Liidu elektrist tuleb tuumajaamadest
+                        </p>
+                      </div>
+                    </label>
+
+                  </form>
+
+                  <a class="next-toogle" data-toggle="collapse" data-parent="#accordion" href="#collapse-2" title="next tab" tabindex="11">Järgmiste artiklite juurde</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="panel">
+              <div class="panel-header">
+                <button class="btn btn-warning collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse-2" tabindex="12"><i class="fa fa-chevron-down"></i> Kuulsad teod</button>
+                <p class="pull-right checkbox-count"><span></span>0/3</p>
+              </div>
+              <div id="collapse-2" class="collapse">
+                <div class="panel-content">
+                  <form name="Form2" class="form2">
+                    <label class="custom-checkbox">
+                      <div class="text-center">
+                        Here will be some content
+                      </div>
+                    </label>
+                  </form>
+                  <a class="next-toogle" data-toggle="collapse" data-parent="#accordion" href="#collapse-3" title="next tab" tabindex="13">Järgmiste artiklite juurde</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="panel">
+              <div class="panel-header">
+                <button class="btn btn-warning collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse-3" tabindex="14"><i class="fa fa-chevron-down"></i> Igapäevane elu</button>
+                <p class="pull-right checkbox-count"><span></span>0/3</p>
+              </div>
+              <div id="collapse-3" class="collapse">
+                <div class="panel-content">
+                  <form name="Form3" class="form3">
+                    <label class="custom-checkbox">
+                      <div class="text-center">
+                        Here will be some content
+                      </div>
+                    </label>
+                  </form>
+                  <a class="next-toogle" data-toggle="collapse" data-parent="#accordion" href="#collapse-4" title="next tab" tabindex="15">Järgmiste artiklite juurde</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="panel">
+              <div class="panel-header">
+                <button class="btn btn-warning collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse-4" tabindex="16"><i class="fa fa-chevron-down"></i> Suured konfliktid</button>
+                <p class="pull-right checkbox-count"><span></span>0/3</p>
+              </div>
+              <div id="collapse-4" class="collapse">
+                <div class="panel-content">
+                  <form name="Form4" class="form4">
+                    <label class="custom-checkbox">
+                      <div class="text-center">
+                        Here will be some content
+                      </div>
+                    </label>
+                  </form>
+                  <a class="next-toogle" data-toggle="collapse" data-parent="#accordion" href="#collapse-1" title="first tab" tabindex="17">Järgmiste artiklite juurde</a>
+                </div>
+              </div>
+            </div>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="row">
+          <div class="pull-center col-md-12 col-sm-12 col-xs-12 col-md-offset-2 col-sm-offset-1">
+            <button type="submit" id="valmis" class="btn btn-lg btn-valmis disabled" tabindex="18">Valmis!</button>
+          </div>
+        </div>
+      </div>
+
+      <section>
+        <div class="container">
+          <div class="row">
+            <div class="col-md-5 col-sm-6 col-xs-12 col-md-offset-2 col-sm-offset-1">
+              <p class="pre-footer-text clearfix">
+                <b>Imeline Ajalugu</b> on põhjamaade populaarseim ajalooajakiri, mille Imeline Ajalugu on põhjamaade populaarseim ajalooajakiri, mille Imeline Ajalugu on põhjamaade populaarseim ajalooajakiri, mille Imeline Ajalugu on põhjamaade populaarseim ajalooajakiri, mille
+              </p>
+            </div>
+            <div class="col-md-3 col-sm-4 col-xs-12">
+              <img src="images/covers.png" class="img-responsive" alt="covers">
+            </div>
+          </div>
+        </div>
+      </section>
+      
+    </article>
+
+    <footer>
+      <div class="navbar footer">
+        <div class="container">
+          <div class="row">
+            <div class="footer-content col-md-8 col-sm-8 col-xs-12 col-md-offset-2 col-sm-offset-1">
+              <p>
+                <a href="" class="footer-text-link" tabindex="19"> Tutvu kampaania tingimustega </a>
+              </p>
+              <p class="footer-text">
+                Klienditeeninduse e-post: <a href="" class="footer-text-link" tabindex="20">register@imelineajalugu.ee</a>, tel: 667 0099 (toopaeviti 9-17)
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- modal window -->
+    <div class="modal fade" id="popup" role="dialog" aria-hidden="true" aria-labelledby="ModalLabel" tabindex="0">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal">
+              <span aria-hidden="true">&times;</span>
+              <span class="sr-only">Close</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <h3 class="modal-title" id="ModalLabel">Kampaania tingimused</h3>
+            <p class="modal-text">
+              Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed Lorem ipsum dolor sit amet, consectetuer 
+            </p>
+            <p class="modal-text">
+              Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed Lorem ipsum dolor sit amet, consectetuer 
+            </p>
+            <p class="modal-text">
+              Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed Lorem ipsum dolor sit amet, consectetuer 
+            </p>
+            <p class="modal-text">
+              Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed Lorem ipsum dolor sit amet, consectetuer adipiscing elit
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </body>
+</html>                                   
